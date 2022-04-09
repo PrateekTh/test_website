@@ -5,7 +5,7 @@ import Header from './MyComponents/Header';
 function App() {
   return (
     <div className="App">
-      <Header/>
+      <Header title = "Header"/>
     </div>
   );
 }

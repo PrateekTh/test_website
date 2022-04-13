@@ -44,6 +44,10 @@ export default function Header(props) {
   )
 }
 
+Header.defaultProps = {
+  title: "My App"
+}
+
 Header.propTypes = {
   title: PropTypes.string
 }
